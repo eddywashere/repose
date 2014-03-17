@@ -714,8 +714,7 @@ class IdentityServiceRemoveTenantedValidationResponseSimulator {
 
 
     def identityTenantlessValidationXML =
-"""
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+"""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <access xmlns="http://docs.openstack.org/identity/api/v2.0"
     xmlns:ns2="http://www.w3.org/2005/Atom"
     xmlns:os-ksadm="http://docs.openstack.org/identity/api/ext/OS-KSADM/v1.0"
